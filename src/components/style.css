@@ -1,0 +1,8 @@
+.color-nav{
+    background: rgb(255,175,189);
+background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 100%);
+}
+.color-fonts{
+    font-size: 500px;
+     
+}
