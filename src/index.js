@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Navbars from './components/Navbars';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Box from './components/Box';
+import Rank from './components/Rank';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbars/>
+    <Rank/>
     <Box/>
+    
     
   </React.StrictMode>,
   document.getElementById('root')
