@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 export default function Rank() {
     return (
         <div>
-            <Container style={{ paddingLeft: 890, paddingTop: 15 }}>
+            <Container style={{ paddingLeft: 300, paddingTop: 15 }}>
 
                 <Row >
                     <Card style={{ backgroundColor: '#FEF1E6', width: '30rem', height: '3rem' }}>   
