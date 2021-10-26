@@ -1,25 +1,33 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap'
+import axios from 'axios';
 export default function Rank() {
-    const Getanime =fetch('https://api.jikan.moe/v3/top/anime/1/bypopularity')
-    .then(response => response.json())
+    const [data, setdata] = useState([])
+    useEffect(()=>{
+        axios('https://api.jikan.moe/v3/top/anime/1/bypopularity')
+        .then(response =>setdata(response))
+    
+    
+      },[])
+
+    
+    
+    
     //.then(response => console.log(response.top[0].title))\/
-    console.log(Getanime)
-
-  
     
-    
-
-        
-    const [data, setdata] = useState({Getanime})
+    console.log(data.data?.top[0].title)
     return (
         <div>
             <Container style={{ paddingLeft: 300, paddingTop: 15 }}>
 
                 <Row >
                     <Card style={{ backgroundColor: '#FEF1E6', width: '30rem', height: '3rem' }}>
-                        <h1></h1>
+                        
+                        <h1>{data.data?.top[0].title}</h1>
+
+                        
+                       
 
                     </Card>
 
