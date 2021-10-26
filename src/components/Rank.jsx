@@ -24,7 +24,7 @@ export default function Rank() {
                 <Row >
                     <Card style={{ backgroundColor: '#FEF1E6', width: '30rem', height: '3rem' }}>
                         
-                        <h1>{data.data?.top[0].title}</h1>
+                        <h1 style={{textAlign: 'center'}}>{data.data?.top[0].title}</h1>
 
                         
                        
