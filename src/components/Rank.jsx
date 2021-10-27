@@ -38,7 +38,7 @@ export default function Rank() {
                 </Row>
                 <Row>
                     <Card style={{ backgroundColor: '#F9D5A7', width: '30rem', height: '3rem' }}>
-                        <h1>Hello2</h1>
+                        <h1 style={{textAlign: 'center'}}> {data.data?.top[1].title} </h1>
 
                     </Card>
 
@@ -47,7 +47,7 @@ export default function Rank() {
                 </Row>
                 <Row>
                     <Card style={{ backgroundColor: '#90AACB', width: '30rem', height: '3rem' }}>
-                        <h1>Hello3</h1>
+                        <h1 style={{textAlign: 'center',fontSize:28}}>{data.data?.top[2].title}</h1>
 
                     </Card>
 
