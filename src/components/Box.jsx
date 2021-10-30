@@ -67,7 +67,7 @@ export default function Box() {
 
 
                 </Row>
-                <Row>
+                <Row style={{ paddingTop: 150 }}>
                     <Col style={{ paddingTop: 50 }}>     <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[3].image_url} style={{ width: '18rem', height: '18rem' }} />
@@ -121,7 +121,7 @@ export default function Box() {
 
 
                 </Row>
-                <Row>
+                <Row style={{ paddingTop: 150 }}>
                     <Col style={{ paddingTop: 50 }}>     <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[6].image_url} style={{ width: '18rem', height: '18rem' }} />
@@ -175,7 +175,7 @@ export default function Box() {
 
 
                 </Row>
-                <Row>
+                <Row style={{ paddingTop: 150 }}>
                     <Col style={{ paddingTop: 50 }}>     <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[9].image_url} style={{ width: '18rem', height: '18rem' }} />
@@ -229,7 +229,7 @@ export default function Box() {
 
 
                 </Row>
-                <Row>
+                <Row style={{ paddingTop: 150 }}>
                     <Col style={{ paddingTop: 50 }}>     <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[12].image_url} style={{ width: '18rem', height: '18rem' }} />
