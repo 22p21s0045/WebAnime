@@ -2,6 +2,7 @@ import React from 'react'
 import { useState,useEffect } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import axios from 'axios';
+import '../components/style.css'
 export default function Rank() {
     const [data, setdata] = useState([])
     useEffect(()=>{
@@ -22,34 +23,34 @@ export default function Rank() {
             <Container style={{ paddingLeft: 300, paddingTop: 15 }}>
 
                 <Row >
-                    <Card style={{ backgroundColor: '#FEF1E6', width: '30rem', height: '3rem' }}>
+                    <Col style={{ backgroundColor: '#FEF1E6', width: '30rem', height: '3rem' }} md={3} sm ={4}>
                         
-                        <h1 style={{textAlign: 'center'}}>{data.data?.top[0].title}</h1>
+                        <h1 style={{textAlign: 'center' }} className="textrank">{data.data?.top[0].title}</h1>
 
                         
                        
 
-                    </Card>
+                    </Col>
 
 
 
 
 
                 </Row>
-                <Row>
-                    <Card style={{ backgroundColor: '#F9D5A7', width: '30rem', height: '3rem' }}>
-                        <h1 style={{textAlign: 'center'}}> {data.data?.top[1].title} </h1>
+                <Row  >
+                    <Col style={{ backgroundColor: '#F9D5A7', width: '30rem', height: '3rem' }} md={3} sm ={4}>
+                        <h1 style={{textAlign: 'center'}}className="textrank"> {data.data?.top[1].title} </h1>
 
-                    </Card>
+                    </Col>
 
 
 
                 </Row>
                 <Row>
-                    <Card style={{ backgroundColor: '#90AACB', width: '30rem', height: '3rem' }}>
-                        <h1 style={{textAlign: 'center',fontSize:28}}>{data.data?.top[2].title}</h1>
+                    <Col style={{ backgroundColor: '#90AACB', width: '30rem', height: '3rem' }} md={3} sm ={4}>
+                        <h1 style={{textAlign: 'center'}} className="textrank">{data.data?.top[2].title}</h1>
 
-                    </Card>
+                    </Col>
 
 
                 </Row>

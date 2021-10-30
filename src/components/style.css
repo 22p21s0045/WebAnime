@@ -6,3 +6,31 @@ background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 1
     font-size: 500px;
      
 }
+.textrank{
+    font-size:1.56vw;
+}
+
+
+/*Rank Responsive*/
+@media screen and (max-width: 765px) and (min-width:420px) {
+    .textrank {
+      font-size: 15px;
+      color:#204C39
+      
+    }
+  }
+  @media screen and (max-width: 419px) and (min-width:100px) {
+    .textrank {
+      font-size: 10px;
+      color:#204C39
+      
+    }
+  }
+  @media screen and (max-width: 1024px) and (min-width:768px) {
+    .textrank {
+      font-size: 18px;
+      color:#204C39
+      
+    }
+  }
+  
