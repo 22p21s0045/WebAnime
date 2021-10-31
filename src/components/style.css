@@ -37,7 +37,16 @@ background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 1
 /* Responsive Box  */
 
 @media screen and (max-width: 991px) and (min-width:768){
+  .boxs {
+    padding: top 50px;
+  }
   
+}
+/* small responsive */
+@media screen and (max-width: 765px) and (min-width:300){
+  .boxs {
+    padding: top 500px;
+  }
   
 }
   
