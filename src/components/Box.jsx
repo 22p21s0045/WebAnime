@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 import { Container } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-
+import '../components/style.css'
 export default function Box() {
     const [data, setdata] = useState([])
     useEffect(() => {
@@ -21,7 +21,7 @@ export default function Box() {
         <div>
             <Container style={{ paddingTop: 50 }}>
                 <Row >
-                    <Col classname ='boxs'>
+                    <Col classname ='boxs' md={6} lg ={4}>
                         <Card style={{ width: '18rem', height: '18rem' }}>
 
                             <Card.Img variant="top" src={data.data?.top[0].image_url} style={{ width: '18rem', height: '18rem' }} />
@@ -37,7 +37,7 @@ export default function Box() {
 
                     </Col>
 
-                    <Col style={{ paddingRight: 30 }}classname ='boxs' >    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col style={{ paddingRight: 30 }} classname ='boxs'  md={6} lg ={4} >    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[1].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -50,7 +50,7 @@ export default function Box() {
                         </Card.Body>
                     </Card>
                     </Col>
-                    <Col style={{ paddingTop: 5, paddingLeft: 0 }}classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col style={{  paddingLeft: 0 }}classname ='boxs'  md={6} lg ={4}>    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[2].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -67,8 +67,8 @@ export default function Box() {
 
 
                 </Row>
-                <Row style={{ paddingTop: 150 }}>
-                    <Col style={{ paddingTop: 50 }}classname ='boxs'>     <Card style={{ width: '18rem', height: '18rem' }}>
+                <Row style={{ paddingTop: 250 }}>
+                    <Col classname ='boxs'  md={6} lg ={4}>     <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[3].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -82,7 +82,7 @@ export default function Box() {
                     </Card>
 
                     </Col>
-                    <Col style={{ paddingTop: 50, paddingRight: 30 }}classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col  classname ='boxs'  md={6} lg ={4}>    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[4].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -96,7 +96,7 @@ export default function Box() {
                     </Card>
 
                     </Col>
-                    <Col style={{ paddingTop: 50, paddingLeft: 0 }}classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col classname ='boxs'  md={6} lg ={4}>    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[5].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -121,8 +121,8 @@ export default function Box() {
 
 
                 </Row>
-                <Row style={{ paddingTop: 150 }} classname ='boxs'>
-                    <Col style={{ paddingTop: 50 }}>     <Card style={{ width: '18rem', height: '18rem' }}>
+                <Row style={{ paddingTop: 250 }} classname ='boxs'>
+                    <Col >     <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[6].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -136,7 +136,7 @@ export default function Box() {
                     </Card>
 
                     </Col>
-                    <Col style={{ paddingTop: 50, paddingRight: 30 }}classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[7].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -150,7 +150,7 @@ export default function Box() {
                     </Card>
 
                     </Col>
-                    <Col style={{ paddingTop: 50, paddingLeft: 0 }}classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[8].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -175,8 +175,8 @@ export default function Box() {
 
 
                 </Row>
-                <Row style={{ paddingTop: 150 }}>
-                    <Col style={{ paddingTop: 50 }} classname ='boxs'>     <Card style={{ width: '18rem', height: '18rem' }}>
+                <Row style={{ paddingTop: 250 }}>
+                    <Col  classname ='boxs'>     <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[9].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -190,7 +190,7 @@ export default function Box() {
                     </Card>
 
                     </Col>
-                    <Col style={{ paddingTop: 50, paddingRight: 30 }}classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[10].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -204,7 +204,7 @@ export default function Box() {
                     </Card>
 
                     </Col>
-                    <Col style={{ paddingTop: 50, paddingLeft: 0 }}classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col classname ='boxs'>    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[11].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -229,8 +229,8 @@ export default function Box() {
 
 
                 </Row>
-                <Row style={{ paddingTop: 150 }}>
-                    <Col style={{ paddingTop: 50 }}>     <Card style={{ width: '18rem', height: '18rem' }}>
+                <Row style={{ paddingTop: 250 }}>
+                    <Col >     <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[12].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -244,7 +244,7 @@ export default function Box() {
                     </Card>
 
                     </Col>
-                    <Col style={{ paddingTop: 50, paddingRight: 30 }}>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col >    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[13].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
@@ -258,7 +258,7 @@ export default function Box() {
                     </Card>
 
                     </Col>
-                    <Col style={{ paddingTop: 50, paddingLeft: 0 }}>    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col >    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[14].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>

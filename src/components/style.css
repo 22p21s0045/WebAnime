@@ -38,7 +38,7 @@ background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 1
 
 @media screen and (max-width: 991px) and (min-width:768){
   .boxs {
-    padding: top 50px;
+    padding-top: 50px;
   }
   
 }
@@ -49,11 +49,4 @@ background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 1
   }
   
 }
- /*  medium (beautiful now)*/
-@media screen and (max-width: 1920px) and (min-width:994){
-  .boxs {
-    padding-top: 500px;
-  }
-  
-}
-  
+
