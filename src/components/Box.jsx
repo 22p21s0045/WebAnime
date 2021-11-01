@@ -26,7 +26,7 @@ export default function Box() {
 
                             <Card.Img variant="top" src={data.data?.top[0].image_url} style={{ width: '18rem', height: '18rem' }} />
                             <Card.Body>
-                                <Card.Title>1</Card.Title>
+                                <Card.Title>1.{data.data?.top[0].title}</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -41,7 +41,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[1].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>2</Card.Title>
+                            <Card.Title>2.{data.data?.top[1].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -54,7 +54,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[2].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>3</Card.Title>
+                            <Card.Title>3.{data.data?.top[2].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -72,7 +72,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[3].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>4</Card.Title>
+                            <Card.Title>4.{data.data?.top[3].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -86,7 +86,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[4].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>5</Card.Title>
+                            <Card.Title>5.{data.data?.top[4].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -100,7 +100,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[5].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>6</Card.Title>
+                            <Card.Title>6.{data.data?.top[5].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -126,7 +126,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[6].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>7</Card.Title>
+                            <Card.Title>7.{data.data?.top[6].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -140,7 +140,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[7].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>8</Card.Title>
+                            <Card.Title>8.{data.data?.top[7].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -154,7 +154,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[8].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>9</Card.Title>
+                            <Card.Title>9.{data.data?.top[8].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -180,7 +180,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[9].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>10</Card.Title>
+                            <Card.Title>10.{data.data?.top[9].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -194,7 +194,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[10].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>11</Card.Title>
+                            <Card.Title>11.{data.data?.top[10].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -208,7 +208,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[11].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>12</Card.Title>
+                            <Card.Title>12.{data.data?.top[11].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -234,7 +234,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[12].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>13</Card.Title>
+                            <Card.Title>13.{data.data?.top[12].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -248,7 +248,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[13].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>14</Card.Title>
+                            <Card.Title>14.{data.data?.top[13].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -262,7 +262,7 @@ export default function Box() {
 
                         <Card.Img variant="top" src={data.data?.top[14].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
-                            <Card.Title>15</Card.Title>
+                            <Card.Title>15.{data.data?.top[14].title}</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
