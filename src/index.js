@@ -7,12 +7,17 @@ import Navbars from './components/Navbars';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Box from './components/Box';
 import Rank from './components/Rank';
+import Particlebg from './components/Particlebg';
+
 
 ReactDOM.render(
   <React.StrictMode>
+    
     <Navbars/>
     <Rank/>
     <Box/>
+    <Particlebg/>
+    
     
     
   </React.StrictMode>,
