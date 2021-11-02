@@ -19,7 +19,7 @@ export default function Box() {
 
     return (
         <div>
-            <Container style={{ paddingTop: 50 }}>
+            <Container style={{ paddingTop: 50}} classname ='bigboxs'>
                 <Row >
                     <Col classname ='boxs' md={6} lg ={4}>
                         <Card style={{ width: '18rem', height: '18rem' }}>
