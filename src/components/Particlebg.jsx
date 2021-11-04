@@ -9,7 +9,26 @@ export default function Particlebg() {
 
   return (
     <div id="particles-js">
-    <ParticleAnimation />
+  <Particles
+  params={{
+    particles: {
+      color: {
+        value: "#ee4466"
+      },
+      line_linked: {
+        color: {
+          value: "#000000"
+        }
+      },
+      number: {
+        value: 50
+      },
+      size: {
+        value: 3
+      }
+    }
+  }}
+/>
     </div>
   )
 }
