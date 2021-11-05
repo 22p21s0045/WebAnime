@@ -19,13 +19,13 @@ export default function Box() {
 
     return (
         <div>
-            <Container style={{ paddingTop: 50}} classname ='bigboxs'>
+            <Container style={{ paddingTop: 100}} classname ='bigboxs'>
                 <Row >
                     <Col classname ='boxs' md={6} lg ={4}>
                         <Card style={{ width: '18rem', height: '18rem' }}>
 
                             <Card.Img variant="top" src={data.data?.top[0].image_url} style={{ width: '18rem', height: '18rem' }} />
-                            <Card.Body>
+                            <Card.Body style={{ backgroundColor: '#151514' }}>
                                 <Card.Title>1.{data.data?.top[0].title}</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -37,7 +37,7 @@ export default function Box() {
 
                     </Col>
 
-                    <Col style={{ paddingRight: 30 }} classname ='boxs'  md={6} lg ={4} >    <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col style={{ paddingRight: 50 }} classname ='boxs'  md={6} lg ={4} >    <Card style={{ width: '18rem', height: '18rem' }}>
 
                         <Card.Img variant="top" src={data.data?.top[1].image_url} style={{ width: '18rem', height: '18rem' }} />
                         <Card.Body>
