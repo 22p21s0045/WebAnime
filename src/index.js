@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Box from './components/Box';
 import Rank from './components/Rank';
 import Particlebg from './components/Particlebg';
-
+import PageNav from './components/PageNav';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,7 +17,7 @@ ReactDOM.render(
     <Rank/>
     <Box/>
     <Particlebg/>
-    
+    <PageNav/>
     
     
   </React.StrictMode>,
